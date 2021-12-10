@@ -1,0 +1,86 @@
+li {
+  list-style: none;
+}
+
+.Header {
+  background-color: rgb(194, 194, 163);
+  height: 100px;
+}
+
+.header-logo {
+  float: left;
+  padding: 25px 30px;
+
+}
+
+.header-logo h1 {
+color: rgb(255, 255, 255);
+font-size: 20px;
+float: right;
+padding-left: 26px;
+padding-bottom: 20px;
+padding-right: 800px;
+}
+
+.Header-list ul li a{
+  display: inline-block;
+  float: right;
+  padding: 35px 15px 35px 15px;
+  font-family: Georgia;
+}
+
+.Header-list ul li a:hover {
+  background-color: #f0f5f5;
+  color: #fff;
+}
+
+@media only screen and {max-width:786px}{
+  /*for mobile phones: */
+}
+header-list li {
+  display: inline-block;
+  float: right
+  padding : 35px 15px 35px 150px
+  font-family: Georgia;
+}
+.Main1 {
+  background-color: #f0f5f5;
+  height: 2000px;
+}
+
+.gambar {
+    padding: 90px 20px 70px 0px;
+    align-content: center;
+}
+
+.kolom p {
+  padding: 10px 10px 10px 10px;
+  line-height: 20px;
+  font-family: display;
+}
+
+.kolom h1 {
+  width: 100%;
+  text-align: center;
+  font-family: serif ;
+  font-size: 36px;
+  line-height: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.kolom p {
+  idth: auto;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #c2c2a3;
+  height: 150px;
+  float: center;
+}
